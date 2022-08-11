@@ -1,0 +1,65 @@
+.mainContainer{
+	border: 2px solid red;
+	max-width: 96vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+table {
+	text-align: center;
+}
+
+table > tr,th {
+	border: 1px solid black;
+	padding: 1vw;
+	font-size: 24px;
+}
+th{
+	background-color: rgb(95, 187, 187);
+}
+
+td {
+	font-family: cursive;
+	font-size: 20px;
+	border: 1px solid black;
+	padding: 1vw;
+}
+
+tr:nth-last-of-type(odd){
+	background-color: lightgray;
+}
+
+
+/* Form Div CSS */
+
+.form-div{
+	border: 1px solid purple;
+	display: flex;
+	flex-direction: column;
+	min-width: 30vw;
+	max-height: 45vh;
+	padding: 1vw;
+	margin-top: 2rem;
+}
+
+.form-div > .form-input-boxes {
+	width: 90%;
+	height: 5vh;
+	margin: 1vw;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+
+.form-div > .submit-btn {
+	width: 70%;
+	font-size: 22px;
+	height: 8vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(168, 100, 168);
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}

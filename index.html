@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="mainContainer">
+		<div >
+			<form autocomplete="off" onsubmit="event.preventDefault();FormSubmit()" class="form-div">
+			<select class="form-input-boxes" id="country-name-input">
+				<option  value="India">India</option>
+				<option value="Australia">Australia</option>
+				<option value="Argentina">Argentina</option>
+				<option value="Bangladesh">Bangladesh</option>
+			</select>
+			<input id="city-name-input" class="form-input-boxes" type="text" placeholder="City Name">
+			<input id="population-input" class="form-input-boxes" type="number" placeholder="Population Name">
+			<input type="submit" value="submit" class="submit-btn">
+		</form>
+		</div>
+		<div class="country_table_list">
+			<table>
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Country</th>
+						<th>City</th>
+						<th>Population</th>
+						<th>Edit</th>
+						<th>Delete</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- Maping all our data here -->
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+<script src="index.js"></script>
+</html>

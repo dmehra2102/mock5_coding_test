@@ -1,0 +1,124 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "country": "Afghanistan",
+      "city": "Kabul",
+      "population": 37172386
+    },
+    {
+      "id": 2,
+      "country": "Australia",
+      "city": "Melbourne",
+      "population": 2866376
+    },
+    {
+      "id": 3,
+      "country": "Algeria",
+      "city": "Gold Coast",
+      "population": 42228429
+    },
+    {
+      "id": 4,
+      "country": "Australia",
+      "city": "Perth",
+      "population": 55465
+    },
+    {
+      "id": 5,
+      "country": "Andorra",
+      "city": "Akelid",
+      "population": 77006
+    },
+    {
+      "id": 6,
+      "country": "Angola",
+      "city": "Uralso",
+      "population": 30809762
+    },
+    {
+      "id": 7,
+      "country": "India",
+      "city": "Delhi",
+      "population": 1503093094
+    },
+    {
+      "id": 8,
+      "country": "Antigua",
+      "city": "Buenos Aires",
+      "population": 96286
+    },
+    {
+      "id": 9,
+      "country": "Argentina",
+      "city": "Kajsida",
+      "population": 44494502
+    },
+    {
+      "id": 10,
+      "country": "Armenia",
+      "city": "Yerevan",
+      "population": 2951776
+    },
+    {
+      "id": 11,
+      "country": "India",
+      "city": "Mumbai",
+      "population": 1503093094
+    },
+    {
+      "id": 12,
+      "country": "Australia",
+      "city": "Canberra",
+      "population": 24982688
+    },
+    {
+      "id": 13,
+      "country": "Austria",
+      "city": "Vienna",
+      "population": 8840521
+    },
+    {
+      "id": 14,
+      "country": "Azerbaijan",
+      "city": "Baku",
+      "population": 9939800
+    },
+    {
+      "id": 15,
+      "country": "Bahamas",
+      "city": "Nassau",
+      "population": 385640
+    },
+    {
+      "id": 16,
+      "country": "India",
+      "city": "Patna",
+      "population": 1503093094
+    },
+    {
+      "id": 17,
+      "country": "Bangladesh",
+      "city": "Dhaka",
+      "population": 161356039
+    },
+    {
+      "id": 18,
+      "country": "India",
+      "city": "Chennai",
+      "population": 1503093094
+    },
+    {
+      "id": 19,
+      "country": "India",
+      "city": "Dehradun",
+      "population": "10991338947"
+    },
+    {
+      "id": 20,
+      "country": "Argentina",
+      "city": "Canbraesldo",
+      "population": "20103494"
+    }
+  ]
+}
