@@ -1,6 +1,32 @@
 const countryTable = document.querySelector("tbody");
 const mainForm = document.querySelector(".form-div");
 const submitBtn = document.querySelector(".submit-btn");
+const sort_asc = document.querySelector("#ascending-sort");
+const sort_desc = document.querySelector("#descending-sort");
+
+
+sort_asc.addEventListener("click", async ()=>{
+	let datas = await fetch("http://localhost:8080/countries")
+	.then((response)=> response.json())
+	.catch((error)=> console.log(error));
+
+	
+	datas = datas.sort((a,b)=> a.population - b.population);
+	DispalyCountry(datas);
+})
+
+
+sort_desc.addEventListener("click", async ()=>{
+	let datas = await fetch("http://localhost:8080/countries")
+	.then((response)=> response.json())
+	.catch((error)=> console.log(error));
+
+	
+	datas = datas.sort((a,b)=> b.population - a.population);
+	DispalyCountry(datas);
+})
+
+
 
 async function CreateCountry(datas){
 	let newData = await fetch("http://localhost:8080/countries",{
@@ -45,9 +71,8 @@ async function fetchCountryData(){
 	DispalyCountry(datas);
 }
 
-
-
 fetchCountryData();
+
 function DispalyCountry(data){
 	let ShowDataItem = data.map((item,index)=>{
 		return `
